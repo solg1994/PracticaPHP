@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+   <h1>Conversor de Moneda Europea</h1>
+   <form action="accion.php" method="POST">
+     <p><strong> Opción 1: Ingresa manualmente el tipo de moneda a convertir. </p>
+     <p> Ingresa la moneda: <input type="text" name="moneda1" /></p>
+     <!-- <p>Moneda2: <input type="text" name="moneda2" /></p> -->
+     <p><input type="submit" name = submit ="submit" value= "Convertir"/></p>
+  </form>
+  <form action="accion2.php" method="POST">
+    <p> Opción 2: Elige un tipo. </p>
+    <SELECT action="accion2.php" method="POST" NAME="selCombo" SIZE=2 onChange="javascript:alert('Seleccionaste una opciòn');">
+          <OPTION VALUE="ARL">ARL</OPTION>
+          <OPTION VALUE="BGN">BGN</OPTION>
+          <OPTION VALUE="BRL">BRL</OPTION>
+          <OPTION VALUE="CAD">CAD</OPTION>
+          <OPTION VALUE="CHF">CHF</OPTION>
+          <OPTION VALUE="CNY">CNY</OPTION>
+          <OPTION VALUE="CZK">CZK</OPTION>
+          <OPTION VALUE="DDK">DDK</OPTION>
+          <OPTION VALUE="GBP">GBP</OPTION>
+          <OPTION VALUE="HDK">HDK</OPTION>
+          <OPTION VALUE="HRK">HRK</OPTION>
+          <OPTION VALUE="HUF">HUF</OPTION>
+          <OPTION VALUE="IDR">IDR</OPTION>
+          <OPTION VALUE="ILS">INR</OPTION>
+          <OPTION VALUE="JPY">JPY</OPTION>
+          <OPTION VALUE="KRW">KRW</OPTION>
+          <OPTION VALUE="MXN">MXN</OPTION>
+          <OPTION VALUE="MYR">MYR</OPTION>
+          <OPTION VALUE="NOK">NOK</OPTION>
+          <OPTION VALUE="NZD">NZD</OPTION>
+          <OPTION VALUE="PHP">PHP</OPTION>
+          <OPTION VALUE="PLN">PLN</OPTION>
+          <OPTION VALUE="RON">RON</OPTION>
+          <OPTION VALUE="RUB">RUB</OPTION>
+          <OPTION VALUE="SEK">SEK</OPTION>
+          <OPTION VALUE="SGD">SGD</OPTION>
+          <OPTION VALUE="THB">THB</OPTION>
+          <OPTION VALUE="TRY">TRY</OPTION>
+          <OPTION VALUE="USD">USD</OPTION>
+          <OPTION VALUE="ZAR">ZAR</OPTION>
+      </SELECT>
+      <p><input type="submit" name = submit ="submit" value= "Convertir"/></p>
+    </form>
+
+</body>
+</html>
